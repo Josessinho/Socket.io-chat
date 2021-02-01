@@ -1,0 +1,7 @@
+.messagesBox{
+  height: 600px;
+  width: 600px;
+  overflow-y: auto;
+  overflow-x: auto;
+  border: 2px solid;
+}

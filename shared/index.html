@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>ChatRoom</title>
+
+    <script src="https://cdn.socket.io/socket.io-3.0.1.min.js"></script>
+    <script src="scripts/script.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body>
+    <h1>Chat room</h1>
+    <div class="messagesBox" id = 'messagesBox'>
+
+    </div>
+    <form onsubmit="sendMessage(); return false">
+      <input type="text" id = "inputBox">
+    </form>
+    <button type="button" name="button" onclick="sendMessage()">Send</button>
+  </body>
+</html>
